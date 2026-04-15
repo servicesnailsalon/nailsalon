@@ -42,7 +42,7 @@ const SALON_INFO = {
   phone: "925 639 0832",
   hours: [
     { day: "Monday - Friday", time: "9:30 AM - 7:00 PM" },
-    { day: "Saturday", time: "9:00 AM - 6:00 PM" },
+    { day: "Saturday", time: "9:30 AM - 7:00 PM" },
     { day: "Sunday", time: "10:00 AM - 5:00 PM" }
   ]
 };
@@ -51,7 +51,7 @@ const SERVICES: ServiceCategory[] = [
   {
     title: "Manicure Services",
     services: [
-      { name: "Classic Manicure", price: "$25", description: "Shape, cuticle care, massage, and polish." },
+      { name: "Classic Manicure", price: "$30", description: "Shape, cuticle care, massage, and polish." },
       { name: "Gel Manicure", price: "$40", description: "Long-lasting gel polish with high shine." },
       { name: "Signature Spa Manicure", price: "$35", description: "Exfoliation, mask, and extended massage." },
       { name: "Dipping Powder", price: "$50", description: "Strong, durable, and lightweight finish." }
@@ -69,8 +69,8 @@ const SERVICES: ServiceCategory[] = [
   {
     title: "Nail Enhancements",
     services: [
-      { name: "Acrylic Full Set", price: "$45+", description: "Traditional acrylic extensions." },
-      { name: "Acrylic Fill-in", price: "$35+", description: "Maintenance for acrylic nails." },
+      { name: "Acrylic Full Set", price: "$55+", description: "Traditional acrylic extensions." },
+      { name: "Acrylic Fill-in", price: "$45+", description: "Maintenance for acrylic nails." },
       { name: "Hard Gel Full Set", price: "$60+", description: "Flexible and natural-looking extensions." },
       { name: "Ombre Design", price: "+$15", description: "Beautiful gradient effect." }
     ]
