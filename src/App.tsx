@@ -87,12 +87,12 @@ const SERVICES: ServiceCategory[] = [
 ];
 
 const GALLERY_IMAGES = [
-  "https://images.unsplash.com/photo-1604654894610-df4906687103?auto=format&fit=crop&q=80&w=800",
-  "https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&q=80&w=800",
-  "https://images.unsplash.com/photo-1607779097040-26e80aa78e66?auto=format&fit=crop&q=80&w=800",
-  "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&q=80&w=800",
-  "https://images.unsplash.com/photo-1610992015732-2449b0c26670?auto=format&fit=crop&q=80&w=800",
-  "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=800"
+  "https://lh3.googleusercontent.com/p/AF1QipNDFKjcIv5TRTJpTS_stUCm8xNF0EdI5dJwZoC-=w243-h174-n-k-no-nu",
+  "https://lh3.googleusercontent.com/p/AF1QipN5Ii1Twiv0Ec6SIsK7g9bQgBIJcxxdWEA2boMD=w243-h174-n-k-no-nu",
+  "https://lh3.googleusercontent.com/p/AF1QipMpEkRYVNm2WKH9O7uTQqVg3IiLYKilE2ZtTP3g=w243-h174-n-k-no-nu",
+  "https://lh3.googleusercontent.com/p/AF1QipOFv8jji_ANfy_a1bP3U3i0OnL8Eqpg8-HQu2TX=w243-h174-n-k-no-nu",
+  "https://lh3.googleusercontent.com/p/AF1QipM3vnsTKniGx9oyMorkiklGRE-gLqvM-oHTLzc4=w243-h174-n-k-no-nu",
+  "https://lh3.googleusercontent.com/p/AF1QipPHfSbwdbzTgzMZU_HRNIgO27GuRTn5jfpoNi8t=w243-h174-n-k-no-nu"
 ];
 
 const BackToTop = () => {
