@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Georgia", serif;
+  
+  --color-gold: #c5a059;
+  --color-dark: #0a0a0a;
+  --color-dark-soft: #151515;
+  --color-border: #222222;
+  --color-border-light: #333333;
+  --color-text-muted: #888888;
+  --color-text-dim: #666666;
+}
+
+@layer base {
+  body {
+    @apply bg-dark text-zinc-300 font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-normal;
+  }
+}
+
+.artistic-container {
+  @apply max-w-[1200px] mx-auto min-h-screen grid grid-cols-1 md:grid-cols-[280px_1fr] grid-rows-[auto_1fr_auto] border-x border-border;
+}
+
+.section-title {
+  @apply text-[10px] uppercase tracking-[3px] text-text-dim mb-5 block font-sans font-bold;
+}
+
+.price-item {
+  @apply flex justify-between items-baseline border-b border-dotted border-border-light pb-1.5 mb-3;
+}
+
+.price-name {
+  @apply text-sm font-serif italic;
+}
+
+.price-value {
+  @apply text-[13px] text-gold font-sans;
+}
+
+.booking-box {
+  @apply bg-black border border-gold p-6 mt-5;
+}
+
+.btn-artistic {
+  @apply flex-1 p-2.5 text-center text-[10px] uppercase tracking-[1px] cursor-pointer border border-gold transition-all duration-300 font-bold font-sans;
+}
+
+.btn-artistic-call {
+  @apply bg-gold text-black;
+}
+
+.btn-artistic-msg {
+  @apply text-gold bg-transparent hover:bg-gold/10;
+}
+
+.glass {
+  @apply bg-white/5 backdrop-blur-md border border-white/10;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-gold to-white;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-dark;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-zinc-800 hover:bg-zinc-700;
+}
